@@ -1,0 +1,121 @@
+body{
+    background-color: whitesmoke;
+}
+h1{
+    font-style: normal;
+    font-size: 65px;
+    font-family: monospace;
+    text-align: center;
+}
+
+#timer{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size : 100px;
+    text-align : center;
+    color: black;
+    padding: 20px;
+    margin: 1px;
+}
+
+#button{
+    text-align: center;
+    padding: 10px;
+}
+
+.button1{
+    background-color: gainsboro;
+    border: double;
+    padding: 15px 30px;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.button2{
+    background-color: gainsboro;
+    border: double;
+    padding: 15px 30px;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+
+}
+
+.addbutton:active{
+    background-color: #2bca31;
+    box-shadow: 0 5px #666;
+    transform: translateY(5px);
+}
+.breakbutton{
+    width: 50%;
+    height: 50px;
+    text-align: center;
+    background-color: honeydew;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    border: 1px solid;
+    border-radius: 10px;
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+.breakbutton:hover{
+    opacity: 1;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.breakbutton:active{
+    transform: translateY(4px);
+    background-color: aquamarine;
+}
+
+.rstbutton{
+    background-color: gainsboro;
+    border: double;
+    padding: 15px 30px;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+
+}
+
+
+.button1:hover{
+    background-color: greenyellow;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.button2:hover{
+    background-color: red;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+
+}
+
+.rstbutton:hover{
+    background-color: lightgoldenrodyellow;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+/*For push down effect*/
+.button1:active{
+    background-color: #2bca31;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+.button2:active{
+    background-color: #ca371d;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+.rstbutton:active{
+    background-color: yellow;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px)
+} 
